@@ -1,12 +1,13 @@
 {
   "name": "useauthtoken",
   "version": "1.0.0",
-  "description": "React hook useAuthToken",
+  "description": "React hook useAuthToken\n",
   "keywords": [
-    "auth",
+    "hook",
     "token",
-    "hooks",
-    "react"
+    "react",
+    "jwt",
+    "auth"
   ],
   "main": "src/index.tsx",
   "dependencies": {
