@@ -33,9 +33,7 @@ export default function App() {
                   Hello, {userData?.name || "world"}!
                 </h1>
                 <p className="lead">
-                  This is a simple hero unit, a simple jumbotron-style component
-                  for calling extra attention to featured content or
-                  information.
+                  This is a simple react hook for storing JWT token into local storage and decoding data from it.
                 </p>
                 <hr className="my-4" />
 
@@ -51,10 +49,9 @@ export default function App() {
               </div>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title">Token control</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Inset your token, add or remove from local storage.
                   </p>
                   <div className="form-group">
                     <textarea
